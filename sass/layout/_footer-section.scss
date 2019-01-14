@@ -1,0 +1,17 @@
+.footer-section
+{
+    background: white;
+    margin: 0;
+    &::before //wave line
+    {
+        content: "";
+        background: transparent;
+        width: 100%;
+        height: 1.8rem;
+        border-bottom: 1rem solid #333;
+        position: relative;
+        top: 0;
+        background-image: url(../images/wave3.png);
+        background-repeat: repeat;
+    }
+}

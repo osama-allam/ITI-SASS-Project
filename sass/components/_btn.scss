@@ -1,0 +1,80 @@
+.btn 
+{
+    // @include btn--general-setting;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 0px solid transparent;
+    padding: 1rem .5rem 1rem .5rem;
+    color: $btn-text-color;
+    background-color: transparent;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    transition: all .2s ease-in-out; 
+    // &:hover 
+    // {
+    //     background-color: $theme-color;
+
+    // }
+    &-circle
+    {
+        color: $theme-color;
+        border: .4rem solid rgba(38,163,135,0.7);
+        box-sizing: border-box;
+        padding: .8rem;
+        margin: .4rem;
+        border-radius: 50%;
+        font-size: 2rem;
+        color: rgb(38,163,135);
+        background: #fff;
+        &:hover 
+        {
+            background-color: $btn-text-color;
+    
+        }
+
+        
+        
+    }
+    &--icon-rotate
+    {
+        &:hover 
+        {
+            .btn__icon 
+            {
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    &--round-top-left-bottom-right-corners 
+    {
+        @include round-top-left-bottom-right;
+
+    }
+    &--round-top-right-bottom-left-corners 
+    {
+        @include round-top-right-bottom-left 
+
+    }
+    &--round-all-corners 
+    {
+        @include round-all-corners 
+
+    }
+    &--rounded-corners
+    {
+        border-radius: 20%;
+        padding: .5rem;
+    }
+    .btn__icon
+    {
+        text-decoration: none;
+        transition: all .8s ease-in-out;
+        position: relative;
+    }
+
+}

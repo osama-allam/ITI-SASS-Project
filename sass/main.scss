@@ -1,0 +1,28 @@
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+
+@import "base/reset";
+@import "base/typography";
+
+@import "components/btn";
+@import "components/dropdown";
+@import "components/cards/card";
+@import "components/cards/half-card"; 
+@import "components/footer";
+@import "components/toggle-menu";
+@import "components/cards/scale-card";
+@import "components/portfolio-gallery";
+@import "components/sliders/post-slider";
+@import "components/sliders/slider";
+@import "components/search-bar";
+
+@import "layout/header";
+@import "layout/body-container";
+@import "layout/search-section";
+@import "layout/post-section";
+@import "layout/gallery-section";
+@import "layout/cards-section";
+@import "layout/footer-section";
+@import "layout/toggle-section";

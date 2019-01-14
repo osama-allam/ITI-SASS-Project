@@ -1,0 +1,17 @@
+*,*::after,*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    list-style-type: none;
+}
+html
+{
+    font-size: 62.5%; //(10/16)*100
+}
+body
+{
+    font-family: $fonts;
+    font-size: 1.6rem;
+    background-color: $theme-color;
+}

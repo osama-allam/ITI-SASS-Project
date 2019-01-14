@@ -1,0 +1,37 @@
+.search-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+    position: absolute;
+    top: 40%;
+    
+   
+    &__buttons-row
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: 5rem;
+    }
+    &__button
+    {
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding: 1rem 1rem;
+        &:hover
+        {
+            background-color: $theme-color;
+            color: white;
+        }
+    }
+    &__button-icon
+    {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+    
+}

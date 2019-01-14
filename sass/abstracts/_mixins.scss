@@ -1,0 +1,47 @@
+//must declare transition in targeted element
+@mixin round-top-right-bottom-left 
+{
+    
+        &:hover 
+        {
+            border-top-right-radius: 1.5rem;
+            border-bottom-left-radius: 1.5rem;
+        }
+}
+@mixin round-top-left-bottom-right 
+{
+    
+        &:hover {
+            border-top-left-radius: 1.5rem;
+            border-bottom-right-radius: 1.5rem;
+        
+    }
+}
+@mixin round-all-corners 
+{
+    
+        &:hover {
+            border-radius: 1.5rem;
+        
+    }
+}
+// @mixin btn--general-setting
+// {
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: nowrap;
+//         justify-content: center;
+//         align-content: center;
+//         width: 100%;
+
+//         text-decoration: none;
+//         text-transform: uppercase;
+//         padding: 2rem .5rem 2rem .5rem;
+//         color: $btn-text-color;
+//         background-color: transparent;
+//         box-sizing: border-box;
+//         display: inline-flex;
+//         justify-content: left;
+//         flex-direction: column;
+//         transition: all 1s ease-in-out;  
+// }

@@ -1,0 +1,35 @@
+.gallery-section
+{
+    &__portfolio
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &::before //wave line
+        {
+            content: "";
+            background: transparent;
+            width: 100%;
+            height: 1.8rem;
+            border-bottom: 1rem solid white;
+            position: relative;
+            top: -4rem;
+            background-image: url(../images/wave.png);
+            background-repeat: repeat;
+        }
+        &::after //wave line
+        {
+            content: "";
+            background: transparent;
+            transform: rotate(180deg);
+            width: 100%;
+            height: 1.8rem;
+            border-bottom: 1rem solid white;
+            position: relative;
+            bottom: -4rem;
+            background-image: url(../images/wave.png);
+            background-repeat: repeat;
+        }
+    }
+}

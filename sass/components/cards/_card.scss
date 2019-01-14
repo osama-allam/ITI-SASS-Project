@@ -1,0 +1,131 @@
+.card 
+{
+    position: relative;
+    display: block;
+    text-align: center;
+    min-width: 5rem;
+    min-height: .1rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+
+    &__content 
+    {
+        border: .1rem solid transparent;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 4rem;
+        border-radius: 1.5rem;
+        transition: all 1s ease-in-out;
+
+        color: white;
+        &:hover 
+        {
+            border: .1rem dashed white;
+            box-shadow: 0 0 50px white(0, 0, 0, 0.12);
+
+            .card__title 
+            {
+                transform: scale(1.1);
+                opacity: 1;
+            }
+
+            .card__img 
+            {
+                top: .8rem;
+            }
+
+            .card__description 
+            {
+                top: -.8rem;
+            }
+            .card__link
+            {
+                opacity: 1;
+                &::after
+                {
+                    visibility: visible;
+                    border: .1rem dashed white;
+                    box-shadow: 0 0 50px rgba(0, 0, 0, 0.12);
+                    transition: all 1s ease-in-out;
+                    transform: rotate(360deg);
+                }
+            }
+        }
+    }
+
+    &__link 
+    {
+        display: block;
+        background-color: transparent;
+        text-decoration: none;
+        box-sizing: border-box;
+        color: white;
+        opacity: .8;
+
+        &::after 
+        {
+            content: url("../images/icons8_Plus_20px_14.png");
+            align-content: center;
+            box-sizing: border-box;
+            background-color: $theme-color;
+            visibility: hidden;
+
+            position: absolute;
+            bottom: -1.5rem;
+            left: 50%;
+
+            margin-left: -1.6rem;
+            border: .1rem dashed transparent;
+            border-radius: 50%;
+            padding-top: .4rem;
+            width: 3.2rem;
+            transition: all 1s ease-in-out;
+            // background-color: white;
+
+        }
+    }
+
+    &__title 
+    {
+        position: relative;
+        border-top: .2rem dotted white;
+        border-bottom: .2rem dotted white;
+        box-sizing: border-box;
+        transition: 1s transform;
+        padding-top: 1rem;
+        padding-bottom: .9rem;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 600;
+        letter-spacing: .5rem;
+        opacity: .6;
+        font-size: 1.6rem;
+        
+
+    }
+
+    &__img {
+        transition: all 1s ease-in-out;
+        position: relative;
+        max-height: 12rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        top: 0;
+        vertical-align: middle;
+        box-sizing: border-box;
+    }
+
+    &__description {
+        position: relative;
+        padding: 12px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        transition: all 1s ease-in-out;
+        color: white;
+        font-weight: 300;
+        font-size: 1.5rem;
+        top: 0;
+    }
+}

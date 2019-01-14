@@ -1,0 +1,26 @@
+.post-section
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+    width: 100%;
+    background-image: url(../images/16.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;    
+    box-shadow: 0 100rem rgba(0, 0, 0, 0.75) inset;
+
+    &__post-slider
+    {
+        width: 100%;
+        
+        padding: 2rem;
+        color: white;
+        
+
+    }
+
+}

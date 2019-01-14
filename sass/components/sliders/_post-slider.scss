@@ -1,0 +1,141 @@
+.post-slider
+{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 8rem 2rem 8rem 2rem;
+    &__main-title
+    {    
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+    }
+    &__posts
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+        align-items: center;
+    }
+    &__post
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        transition: all 1s ease;
+        color: white;
+        &--1
+        {
+            // display: block;
+            visibility: visible;
+            transform: scale(1,1);
+        }
+        &--2
+        {
+            // display: none;
+            visibility: hidden;
+            transform: scale(0,1);
+            position: absolute;
+        }
+
+    }
+    &__title
+    {
+        // font-size: 80%;
+        font-size: 4rem;
+        width:100%;
+        margin: 0 0 2rem 0;
+
+    }
+    &__title-link
+    {
+        color: white;
+        text-decoration: none;
+        transition: opacity .2s linear;
+        &:hover
+        {
+            opacity: .5;
+        }
+
+    }
+    &__content
+    {
+        margin: 0 0 2.5rem;
+
+    }
+    &__link-radio
+    {
+        cursor: pointer;
+        margin-right: 1rem; 
+        margin-top:5rem;
+        transform: scale(1.2);
+    }
+    #select-type
+    {
+        &-1
+        {
+            position: relative;
+            bottom: 7rem;
+
+            right: 3rem;
+            &:checked
+            {
+                ~.post-slider__posts
+                {
+                    .post-slider__post
+                    {
+                        &--1
+                        {
+                            // display: block;
+                            visibility: visible;
+                            transform: scale(1,1)
+
+                        }
+                        &--2
+                        {
+                            transform: scale(0,1);
+                            // display: none;
+                            visibility: hidden;
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+        }
+        &-2
+        {
+            position: relative;
+            bottom: 0.7rem;
+
+            right: 0;
+            
+            &:checked
+            {
+                ~.post-slider__posts
+                {
+                    .post-slider__post
+                    {
+                        &--1
+                        {
+                            transform: scale(0,1);
+                            visibility: hidden;
+                            position: absolute;
+                        }
+                        &--2
+                        {
+                            visibility: visible;
+                            transform: scale(1,1);
+                            position: static;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

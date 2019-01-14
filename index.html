@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="body-container">
+        <!-- header -->
+        <header class="header">
+            <div class="header__logo">
+                <img class="header__logo-img" alt="" src="images/logo.png">
+            </div>
+            <div class="header__nav-bar">
+                <div class="dropdown ">
+                    <a class="dropdown__data" href="#">home<i class="dropdown__data-icon fas fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown__item dropdown__item--round-corners">
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">envato
+                                Hero
+                                Video</a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">envato
+                                Hero
+                                Video </a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Vimeo
+                                Hero
+                                Video</a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Self
+                                Hosted
+                                Video</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown ">
+                    <a class="dropdown__data" href="#">register<i class="dropdown__data-icon fas fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown__item dropdown__item--round-corners">
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Login/Register</a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Recover
+                                Password</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="dropdown ">
+                    <a class="dropdown__data" href="#">about<i class="dropdown__data-icon fas fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown__item dropdown__item--round-corners">
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">How it
+                                Works</a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Pricing</a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown ">
+                    <a class="dropdown__data" href="#">listings<i class="dropdown__data-icon fas fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown__item dropdown__item--round-corners">
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Map View
+                                as Default</a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Map View
+                                as Default</a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Map View
+                                as Default</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown ">
+                    <a class="dropdown__data" href="#">blog<i class="dropdown__data-icon fas fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown__item dropdown__item--round-corners">
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Blog Grid
+                                1</a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Blog Grid
+                                2</a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Blog Grid
+                                3</a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Blog Grid
+                                4</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown ">
+                    <a class="dropdown__data" href="#">contact<i class="dropdown__data-icon fas fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown__item dropdown__item--round-corners">
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Default
+                                Contact</a>
+                        </li>
+                        <li class="dropdown__content">
+                            <a href="#" class="dropdown__content-data dropdown__content--sliding-middle-out ">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__buttons">
+                <a href="#" class="header__btn btn btn--round-top-left-bottom-right-corners btn--icon-rotate">
+                    <i class="btn__icon header__btn-icon far fa-user"></i>
+                </a>
+                <a href="#" class="header__btn header__btn--txt-icon  btn btn--round-top-left-bottom-right-corners btn--icon-rotate">
+                    <i class="fas fa-map-marker-alt btn__icon header__btn-icon header__btn-icon--txt-icon"></i>
+                    add listing
+                </a>
+            </div>
+            <!-- start of search -->
+            <div class="search-section">
+                <div class="search-section__search-bar search-bar">
+                    <i class="search-bar__search-btn--icon far fa-heart"></i>
+                    <input class="search-bar__input-text " type="text" placeholder="Explore and Enjoy...">
+                    <div class="search-bar__btn-group">
+                        <a href="#" class="search-bar__search-btn--text btn btn--rounded-corners  btn--icon-rotate">
+                            Maimi
+                        </a>
+                        <a href="#" class="search-bar__search-btn--icon btn btn--icon-rotate">
+                            <i class="btn__icon fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="search-section__buttons-row buttons-row">
+                    <a href="#" class="search-section__button btn btn--round-top-left-bottom-right-corners btn--icon-rotate">
+                        <i class="search-section__button-icon btn__icon fas fa-concierge-bell"></i>
+                        restaurant
+                    </a>
+                    <a href="#" class="search-section__button btn btn--round-top-left-bottom-right-corners btn--icon-rotate">
+                        <i class="search-section__button-icon btn__icon fas fa-mortar-pestle"></i>
+                        cafe
+                    </a>
+                    <a href="#" class="search-section__button btn btn--round-top-left-bottom-right-corners btn--icon-rotate">
+                        <i class="search-section__button-icon btn__icon far fa-moon"></i>
+                        night life
+                    </a>
+                    <a href="#" class="search-section__button btn btn--round-top-left-bottom-right-corners btn--icon-rotate">
+                        <i class="search-section__button-icon btn__icon fas fa-cloud-sun"></i>
+                        outdoor
+                    </a>
+                    <a href="#" class="search-section__button btn btn--round-top-left-bottom-right-corners btn--icon-rotate">
+                        <i class="search-section__button-icon btn__icon fas fa-home"></i>
+                        lodging
+                    </a>
+                    <a href="#" class="search-section__button btn btn--round-top-left-bottom-right-corners btn--icon-rotate">
+                        <i class="search-section__button-icon btn__icon fas fa-car-side"></i>
+                        car order
+                    </a>
+                    <a href="#" class="search-section__button btn btn--round-top-left-bottom-right-corners btn--icon-rotate">
+                        <i class="search-section__button-icon btn__icon fas fa-tshirt"></i>
+                        clothing
+                    </a>
+                    <a href="#" class="search-section__button btn btn--round-top-left-bottom-right-corners btn--icon-rotate">
+                        <i class="search-section__button-icon btn__icon fas fa-dumbbell"></i>
+                        gym
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+        <!-- slider -->
+        <div class="slider">
+            <div class="slider__media">
+                <video class="slider__media" id="bgvid" playsinline autoplay muted loop>
+                    <source src="videos/New York City - Travellog No.1 with Sony A7S from ge-filmt.de on Vimeo.MP4"
+                        type="video/webm">
+                    <source src="videos/New York City - Travellog No.1 with Sony A7S from ge-filmt.de on Vimeo.MP4"
+                        type="video/mp4">
+
+                </video>
+            </div>
+            <div class="slider__dot-overlay"></div>
+            <div class="slider__overlay"></div>
+        </div>
+        <!-- end of slider -->
+
+        <!-- gallery -->
+        <div class="gallery-section">
+            <div class="gallery-section__portfolio portfolio">
+                <div class="portfolio__header">
+                    <h4 class="portfolio__header-text">Creative Portfolio</h4>
+                    <h6 class="portfolio__header-data">Latest Projects</h6>
+                </div>
+                <div class="portfolio__filters">
+                    <input id="select-all" type="radio" checked name="filter-links" class="portfolio__link-radio">
+                    <label for="select-all" class="portfolio__link-radio-label">all</label>
+
+                    <input id="select-type-1" type="radio" name="filter-links" class="portfolio__link-radio">
+                    <label for="select-type-1" class="portfolio__link-radio-label">brand</label>
+
+                    <input id="select-type-2" type="radio" name="filter-links" class="portfolio__link-radio">
+                    <label for="select-type-2" class="portfolio__link-radio-label">design</label>
+
+                    <input id="select-type-3" type="radio" name="filter-links" class="portfolio__link-radio">
+                    <label for="select-type-3" class="portfolio__link-radio-label">graphics</label>
+
+                    <div class="portfolio__gallery">
+
+                        <div class="scale-card portfolio__item portfolio__item--type-1 ">
+
+                            <div class="scale-card">
+                                <img src="images/1.jpg" class="scale-card__img" alt="">
+                                <div class="scale-card__overlay">
+                                    <div class="scale-card__overlay-content">
+                                        <p class="scale-card__data">Logo & Branding</p>
+                                        <h6 class="scale-card__heading">Crearive Design</h6>
+                                        <div class="scale-card__icon-set">
+                                            <a href="#" class="scale-card__icon  btn btn-circle btn--icon-rotate">
+                                                <i class="btn__icon fas fa-link"></i>
+                                            </a>
+                                            <a href="#" class=" btn btn-circle btn--icon-rotate scale-card__icon">
+                                                <i class="btn__icon fas fa-eye"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scale-card portfolio__item portfolio__item--type-2 ">
+
+                            <div class="scale-card">
+                                <img src="images/2.jpg" class="scale-card__img" alt="">
+                                <div class="scale-card__overlay">
+                                    <div class="scale-card__overlay-content">
+                                        <p class="scale-card__data">Logo & Branding</p>
+                                        <h6 class="scale-card__heading">Crearive Design</h6>
+                                        <div class="scale-card__icon-set">
+                                            <a href="#" class="scale-card__icon  btn btn-circle btn--icon-rotate">
+                                                <i class="btn__icon fas fa-link"></i>
+                                            </a>
+                                            <a href="#" class=" btn btn-circle btn--icon-rotate scale-card__icon">
+                                                <i class="btn__icon fas fa-eye"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scale-card portfolio__item portfolio__item--type-1 ">
+
+                            <div class="scale-card">
+                                <img src="images/3.jpg" class="scale-card__img" alt="">
+                                <div class="scale-card__overlay">
+                                    <div class="scale-card__overlay-content">
+                                        <p class="scale-card__data">Logo & Branding</p>
+                                        <h6 class="scale-card__heading">Crearive Design</h6>
+                                        <div class="scale-card__icon-set">
+                                            <a href="#" class="scale-card__icon  btn btn-circle btn--icon-rotate">
+                                                <i class="btn__icon fas fa-link"></i>
+                                            </a>
+                                            <a href="#" class=" btn btn-circle btn--icon-rotate scale-card__icon">
+                                                <i class="btn__icon fas fa-eye"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scale-card portfolio__item portfolio__item--type-2 ">
+
+                            <div class="scale-card">
+                                <img src="images/4.jpg" class="scale-card__img" alt="">
+                                <div class="scale-card__overlay">
+                                    <div class="scale-card__overlay-content">
+                                        <p class="scale-card__data">Logo & Branding</p>
+                                        <h6 class="scale-card__heading">Crearive Design</h6>
+                                        <div class="scale-card__icon-set">
+                                            <a href="#" class="scale-card__icon  btn btn-circle btn--icon-rotate">
+                                                <i class="btn__icon fas fa-link"></i>
+                                            </a>
+                                            <a href="#" class=" btn btn-circle btn--icon-rotate scale-card__icon">
+                                                <i class="btn__icon fas fa-eye"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scale-card portfolio__item portfolio__item--type-3 ">
+
+                            <div class="scale-card">
+                                <img src="images/5.jpg" class="scale-card__img" alt="">
+                                <div class="scale-card__overlay">
+                                    <div class="scale-card__overlay-content">
+                                        <p class="scale-card__data">Logo & Branding</p>
+                                        <h6 class="scale-card__heading">Crearive Design</h6>
+                                        <div class="scale-card__icon-set">
+                                            <a href="#" class="scale-card__icon  btn btn-circle btn--icon-rotate">
+                                                <i class="btn__icon fas fa-link"></i>
+                                            </a>
+                                            <a href="#" class=" btn btn-circle btn--icon-rotate scale-card__icon">
+                                                <i class="btn__icon fas fa-eye"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scale-card portfolio__item portfolio__item--type-2 ">
+
+                            <div class="scale-card">
+                                <img src="images/6.jpg" class="scale-card__img" alt="">
+                                <div class="scale-card__overlay">
+                                    <div class="scale-card__overlay-content">
+                                        <p class="scale-card__data">Logo & Branding</p>
+                                        <h6 class="scale-card__heading">Crearive Design</h6>
+                                        <div class="scale-card__icon-set">
+                                            <a href="#" class="scale-card__icon  btn btn-circle btn--icon-rotate">
+                                                <i class="btn__icon fas fa-link"></i>
+                                            </a>
+                                            <a href="#" class=" btn btn-circle btn--icon-rotate scale-card__icon">
+                                                <i class="btn__icon fas fa-eye"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scale-card portfolio__item portfolio__item--type-1 ">
+
+                            <div class="scale-card">
+                                <img src="images/7.jpg" class="scale-card__img" alt="">
+                                <div class="scale-card__overlay">
+                                    <div class="scale-card__overlay-content">
+                                        <p class="scale-card__data">Logo & Branding</p>
+                                        <h6 class="scale-card__heading">Crearive Design</h6>
+                                        <div class="scale-card__icon-set">
+                                            <a href="#" class="scale-card__icon  btn btn-circle btn--icon-rotate">
+                                                <i class="btn__icon fas fa-link"></i>
+                                            </a>
+                                            <a href="#" class=" btn btn-circle btn--icon-rotate scale-card__icon">
+                                                <i class="btn__icon fas fa-eye"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scale-card portfolio__item portfolio__item--type-3 ">
+
+                            <div class="scale-card">
+                                <img src="images/8.jpg" class="scale-card__img" alt="">
+                                <div class="scale-card__overlay">
+                                    <div class="scale-card__overlay-content">
+                                        <p class="scale-card__data">Logo & Branding</p>
+                                        <h6 class="scale-card__heading">Crearive Design</h6>
+                                        <div class="scale-card__icon-set">
+                                            <a href="#" class="scale-card__icon  btn btn-circle btn--icon-rotate">
+                                                <i class="btn__icon fas fa-link"></i>
+                                            </a>
+                                            <a href="#" class=" btn btn-circle btn--icon-rotate scale-card__icon">
+                                                <i class="btn__icon fas fa-eye"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end of gallery -->
+
+        <!-- post section -->
+        <div class="post-section">
+
+            <div class="toggle-section__post-slider">
+                <div class="post-slider__main-title">
+                    <h2 class="post-slider__title-data">post</h2>
+                    <div class="post-slider">
+
+                        <input id="select-type-1" type="radio" name="slide-links" checked class="post-slider__link-radio">
+                        <input id="select-type-2" type="radio" name="slide-links" class="post-slider__link-radio">
+                        <div class="post-slider__posts">
+                            <div class="post-slider__post post-slider__post--1">
+                                <h2 class="post-slider__title">
+                                    <a href="#" class="post-slider__title-link">Lorem ipsum dolor sit</a>
+                                </h2>
+                                <div class="post-silder__content">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facere earum
+                                    quis ipsa
+                                    vitae qui minima
+                                    esse ducimus dolorum iste nisi laborum repellat dolores dolore debitis adipisci
+                                    nemo quia
+                                    autem pariatur a
+                                    voluptatem dignissimos maiores accusantium nobis tempora consequatur cumque quas ea
+                                    doloribus deleniti.
+                                    Quibusdam commodi laboriosam error temporibus iste ipsa soluta distinctio maiores
+                                    ad totam
+                                    beatae incidunt
+                                    veritatis enim? Reiciendis voluptate cupiditate asperiores ratione laboriosam alias
+                                    mollitia eaque labore
+                                    aperiam similique reprehenderit assumenda quidem eos explicabo rerum. Porro at ex
+                                    magni
+                                    aliquam laborum
+                                    delectus voluptate officia modi nam et cupiditate culpa asperiores eaque fuga quae.
+                                    Dolorum
+                                    commodi labore
+                                    neque fuga totam voluptate vitae ea laudantium iure quos placeat accusamus.
+                                </div>
+                            </div>
+                            <div class="post-slider__post post-slider__post--2">
+                                <h2 class="post-slider__title">
+                                    <a href="#" class="post-slider__title-link">Lorem ipsum dolor sit</a>
+                                </h2>
+                                <div class="post-silder__content">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facere earum
+                                    quis ipsa
+                                    vitae qui minima
+                                    esse ducimus dolorum iste nisi laborum repellat dolores dolore debitis adipisci
+                                    nemo quia
+                                    autem pariatur a
+                                    voluptatem dignissimos maiores accusantium nobis tempora consequatur cumque quas ea
+                                    doloribus deleniti.
+                                    Quibusdam commodi laboriosam error temporibus iste ipsa soluta distinctio maiores
+                                    ad totam
+                                    beatae incidunt
+                                    veritatis enim? Reiciendis voluptate cupiditate asperiores ratione laboriosam alias
+                                    mollitia eaque labore
+                                    aperiam similique reprehenderit assumenda quidem eos explicabo rerum. Porro at ex
+                                    magni
+                                    aliquam laborum
+                                    delectus voluptate officia modi nam et cupiditate culpa asperiores eaque fuga quae.
+                                    Dolorum
+                                    commodi labore
+                                    neque fuga totam voluptate vitae ea laudantium iure quos placeat accusamus.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!-- end of post section -->
+       
+        <!-- cards section -->
+        <div class="cards-section">
+            <div class="cards-section__title">
+                <h1 class="cards-section__header">
+                    How it Works?
+                </h1>
+                <h4 class="cards-section__data">
+                    New experiences and opportunities to both sides
+                </h4>
+            </div>
+            <div class="cards-section__cards">
+                <div class="cards-section__card card">
+                    <div class="card__content">
+                        <a class="card__link" href="#">
+                            <img class="card__img" src="./images/icons8_Globe_150px.png" alt="loaction">
+                            <h3 class="card__title">
+                                Announcers
+                            </h3>
+                            <div class="card__description">
+                                Publish a listing to show everyone what are the goodies of your establishment. Add
+                                amenities and
+                                tags to promote every detail of your listing.
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cards-section__card card">
+                    <div class="card__content">
+                        <a class="card__link" href="#">
+                            <img class="card__img" src="./images/icons8_ID_Verified_150px.png" alt="loaction">
+                            <h3 class="card__title">
+                                Consumers
+                            </h3>
+                            <div class="card__description">
+
+                                Easily find interesting hand-picked places by local experts. Save your time by
+                                organizing your trip Online, don't miss any point.
+
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cards-section__card card">
+                    <div class="card__content">
+                        <a class="card__link" href="#">
+                            <img class="card__img" src="./images/icons8_Coins_150px.png" alt="loaction">
+                            <h3 class="card__title">
+                                Everyone
+                            </h3>
+                            <div class="card__description">
+
+                                Exchange experiences and tastes, extend your personal and profissional network creating
+                                long-term business relationship and new friendships.
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cards-section__card card">
+                    <div class="card__content">
+                        <a class="card__link" href="#">
+                            <img class="card__img" src="./images/icons8_Presentation_150px.png" alt="loaction">
+                            <h3 class="card__title">
+                                Free Vs Premium
+                            </h3>
+                            <div class="card__description">
+
+                                You can start it free right now and migrate to a premium account anytime you want.
+                                Click to see all the plans and resources.
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of cards section -->
+
+         <!-- toggle section -->
+         <div class="toggle-section">
+            <div class="toggle-section__title">
+                    <h1 class="toggle-section__header">
+                            What Do You Need Today?
+                    </h1>
+                    <h4 class="toggle-section__data">
+                            Easily glimpse hand picked places
+                    </h4>
+                </div>
+            <div class="toggle-section__toggle-menu">
+                <div class="toggle-menu">
+                    <!-- <div class="toggle-menu__main-title">
+                        <h2 class="toggle-menu__title-data">Open one toggle at a time</h2>
+                    </div> -->
+                    <div class="toggle-menu__panel-group ">
+                        <div class="toggle-menu__panel ">
+                            <div class="toggle-menu__heading">
+                                <input type="radio" checked name="check" class="toggle-menu__check" />
+                                <div class="toggle-menu__title">
+                                    <a for="menu-toggle" class="toggle-menu__toggle-link">Portfolio Pages</a>
+                                </div>
+                                <div class="toggle-menu__content">
+                                    <div class="toggle-menu__body">
+                                        <img class="toggle-menu__body-img" src="images/animations.png" alt="">
+
+                                        <span class="toggle-menu__body-data">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ipsa esse
+                                            obcaecati
+                                            repudiandae veniam amet modi recusandae optio earum sequi accusantium culpa
+                                            vitae iste
+                                            sit commodi eaque voluptatem officia quam. Molestiae nobis quidem atque
+                                            explicabo eum
+                                            facilis libero porro in fugiat pariatur molestias maiores voluptates rerum
+                                            ipsa
+                                            architecto quae assumenda harum fuga modi accusantium nihil dolor
+                                            consequatur totam
+                                            commodi quam quas neque dolorem veritatis unde adipisci ad illo excepturi
+                                            quia facere
+                                            reprehenderit non alias cum minima labore quo repudiandae perferendis?
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="toggle-menu__panel ">
+                                <div class="toggle-menu__heading">
+                                    <input type="radio" name="check" class="toggle-menu__check" />
+                                    <div class="toggle-menu__title">
+                                        <a for="menu-toggle" class="toggle-menu__toggle-link">Portfolio Pages</a>
+                                    </div>
+                                    <div class="toggle-menu__content">
+                                        <div class="toggle-menu__body">
+
+                                            <span class="toggle-menu__body-data">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ipsa
+                                                esse
+                                                obcaecati
+                                                repudiandae veniam amet modi recusandae optio earum sequi accusantium
+                                                culpa vitae
+                                                iste
+                                                sit commodi eaque voluptatem officia quam. Molestiae nobis quidem atque
+                                                explicabo
+                                                eum
+                                                facilis libero porro in fugiat pariatur molestias maiores voluptates
+                                                rerum ipsa
+                                                architecto quae assumenda harum fuga modi accusantium nihil dolor
+                                                consequatur totam
+                                                commodi quam quas neque dolorem veritatis unde adipisci ad illo
+                                                excepturi quia
+                                                facere
+                                                reprehenderit non alias cum minima labore quo repudiandae perferendis?
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="toggle-menu__panel ">
+                                    <div class="toggle-menu__heading">
+                                        <input type="radio" name="check" class="toggle-menu__check" />
+                                        <div class="toggle-menu__title">
+                                            <a for="menu-toggle" class="toggle-menu__toggle-link">Portfolio Pages</a>
+                                        </div>
+                                        <div class="toggle-menu__content">
+                                            <div class="toggle-menu__body">
+                                                <img class="toggle-menu__body-img" src="images/animations.png" alt="">
+
+                                                <span class="toggle-menu__body-data">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
+                                                    ipsa esse
+                                                    obcaecati
+                                                    repudiandae veniam amet modi recusandae optio earum sequi
+                                                    accusantium culpa
+                                                    vitae iste
+                                                    sit commodi eaque voluptatem officia quam. Molestiae nobis quidem
+                                                    atque
+                                                    explicabo eum
+                                                    facilis libero porro in fugiat pariatur molestias maiores
+                                                    voluptates rerum ipsa
+                                                    architecto quae assumenda harum fuga modi accusantium nihil dolor
+                                                    consequatur
+                                                    totam
+                                                    commodi quam quas neque dolorem veritatis unde adipisci ad illo
+                                                    excepturi quia
+                                                    facere
+                                                    reprehenderit non alias cum minima labore quo repudiandae
+                                                    perferendis?
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="toggle-menu__panel ">
+                                    <div class="toggle-menu__heading">
+                                        <input type="radio" name="check" class="toggle-menu__check" />
+                                        <div class="toggle-menu__title">
+                                            <a for="menu-toggle" class="toggle-menu__toggle-link">Portfolio Pages</a>
+                                        </div>
+                                        <div class="toggle-menu__content">
+                                            <div class="toggle-menu__body">
+
+                                                <span class="toggle-menu__body-data">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
+                                                    ipsa esse
+                                                    obcaecati
+                                                    repudiandae veniam amet modi recusandae optio earum sequi
+                                                    accusantium culpa
+                                                    vitae iste
+                                                    sit commodi eaque voluptatem officia quam. Molestiae nobis quidem
+                                                    atque
+                                                    explicabo eum
+                                                    facilis libero porro in fugiat pariatur molestias maiores
+                                                    voluptates rerum ipsa
+                                                    architecto quae assumenda harum fuga modi accusantium nihil dolor
+                                                    consequatur
+                                                    totam
+                                                    commodi quam quas neque dolorem veritatis unde adipisci ad illo
+                                                    excepturi quia
+                                                    facere
+                                                    reprehenderit non alias cum minima labore quo repudiandae
+                                                    perferendis?
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end of toggle section -->
+        <!-- footer -->
+        <div class="footer-section">
+            <div class="footer">
+                <div class="footer__row footer__cards">
+                    <div class="half-card">
+                        <div class="half-card__icon-data">
+                            <img class="half-card__icon" src="images/icons8_Page_64px.png" alt="">
+                            <a href="#" class="half-card__data">terms of use</a>
+                        </div>
+                    </div>
+                    <div class="half-card">
+                        <div class="half-card__icon-data">
+                            <img class="half-card__icon" src="images/icons8_Menu_40px.png" alt="">
+                            <div class="half-card__data-set">
+
+                                <a href="#" class="half-card__data">Home</a>
+                                <a href="#" class="half-card__data">about</a>
+                                <a href="#" class="half-card__data">sign in</a>
+                                <a href="#" class="half-card__data">contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="half-card">
+                        <a href="#" class="half-card__icon  btn btn-circle btn--icon-rotate half-card__btn-icon">
+                            <i class="btn__icon fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="half-card__icon btn btn-circle btn--icon-rotate half-card__btn-icon">
+                            <i class="btn__icon fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="half-card__icon btn btn-circle btn--icon-rotate half-card__btn-icon">
+                            <i class="btn__icon fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="half-card__icon btn btn-circle btn--icon-rotate half-card__btn-icon">
+                            <i class="btn__icon fab fa-pinterest"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="half-card">
+                        <div class="half-card__icon-data">
+                            <img class="half-card__icon" src="images/icons8_Marker_50px.png" alt="">
+                            <a href="#" class="half-card__data">Your Business Address Here (99) 989-745-9922</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" footer__row footer__logo">
+                    <img class="footer__logo-img" alt="" src="images/logo.png">
+                </div>
+                <div class="footer__row footer__credits">
+                    <div class="footer__copyright">
+                        (C) 2017 Your Company, All right reserved
+                    </div>
+                    <div class="footer__developer">
+                        Developed with Passion for Coding by Webdesign Trade.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- end of footer -->
+    </div>
+
+
+</body>
+
+</html>
